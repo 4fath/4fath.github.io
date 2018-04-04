@@ -1,0 +1,60 @@
+# Site
+title:              Fatih Şentürk
+bio:                'A Software Engineer Blog'
+description:        "This is description part"
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/deniz.jpg'
+background:         'assets/img/map.jpeg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                https://4fath.github.io/
+
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Comments
+# disqus_shortname:   4fath // currently i am not using disqus
+
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+linkedin:           4fath
+github-url:         4fath
+email:              fatihsenturk@engineer.com
+twitter:            4fath
+hackernews:         4fath
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#xing:              username
+#medium:            '@username'
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
